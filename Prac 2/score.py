@@ -5,6 +5,7 @@ Broken program to determine score status
 
 import random
 
+
 def determine_score_status(score):
     if score < 0 or score > 100:
         return "Invalid score"
@@ -14,6 +15,7 @@ def determine_score_status(score):
         return "Pass"
     else:
         return "Bad"
+
 
 user_score = float(input("Enter score: "))
 user_status = determine_score_status(user_score)
