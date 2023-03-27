@@ -26,3 +26,4 @@ print("Finished.")
 3.Yes, to avoid the possibility of a ZeroDivisionError, we can add a condition to check if the denominator is 0 before dividing.
 """
 
+1
