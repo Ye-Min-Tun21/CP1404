@@ -6,7 +6,7 @@ NUM_PER_LINE = 6
 
 
 def main():
-    """Quick picks program - choose sets of random numbers."""
+    """Choose sets of random numbers."""
     number_of_quick_picks = int(input("How many quick picks? "))
     while number_of_quick_picks < 0:
         print("Invalid!")
